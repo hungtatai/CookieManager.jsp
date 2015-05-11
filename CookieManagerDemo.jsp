@@ -6,7 +6,7 @@
   cm.add("hello", "world");
 
   // get value by key
-  out.println(cm.get("hello", "hihi") + "<br />");
+  out.println(cm.get("hello") + "<br />");
 
   // get value by key (or get default value)
   out.println(cm.get("name", "default name") + "<br />");
