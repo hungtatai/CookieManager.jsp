@@ -19,7 +19,7 @@ public class CookieManager {
 			this.cookies.add(c);
 	}
 
-	public javax.servlet.http.Cookie getCookie(String key) {
+	private javax.servlet.http.Cookie getCookie(String key) {
 		/*if(request.getCookies() == null)
 			return null;*/
 		for(javax.servlet.http.Cookie c : this.cookies ) {
